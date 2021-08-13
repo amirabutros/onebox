@@ -94,9 +94,9 @@ Adding Support for a new URL
            def data
              {
                url: @url,
-               name: raw.css("h1").inner_text,
-               image: raw.css("#main-image").first["src"],
-               description: raw.css("#postBodyPS").inner_text
+               name: communication("h1").inner_text,
+               image: communication("#main-image").first["src"],
+               description: communication ("#Developing-skills").inner_text
              }
            end
          end
