@@ -41,8 +41,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
+      - uses: actions/checkout@v
       - name: Release Gem
         uses: discourse/publish-rubygems-action@main
         env:
