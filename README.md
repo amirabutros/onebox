@@ -10,7 +10,7 @@ Onebox is a library for turning media URLs into simple HTML previews of the reso
 Onebox currently has support for page, image, and video URLs for many popular sites.
 
 It's great if you want users to input URLs and have your application convert them into
-rich previews for display. For example, a link to a YouTube video would be automatically
+rich previews for display. For example, a link to a Google video would be automatically
 converted into a video player.
 
 It was originally created for [Discourse](http://discourse.org) but has since been
